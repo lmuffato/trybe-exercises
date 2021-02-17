@@ -1,4 +1,11 @@
-.img { width: 200px; }
+.nome{width: 100% ;text-align: center;background-color: orange; padding: 10;}
+
+.foto_e_descricao {max-width: 100%; width: 100%; background-color: olive;}
+.foto {width: 200px;}
+.descricao{height: 200px;;max-width: 800px; min-width:100% ; background-color: orange; }
+.foto_e_descricao_container {background-color: #ba0104;padding: 5px;
+                             display: inline-block;align-content:space-around;}
+.tudo {width: 100%;}
 
 /* {
 margin: 0;
@@ -22,4 +29,3 @@ h2 {color: #346196}
 h3 {color: #346196}
 ol {color: #4b9507}
 .indice {color: #4b9507}
-.texto {padding: 60px 60px 100px 100px}
