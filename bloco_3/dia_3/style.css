@@ -1,10 +1,12 @@
-.nome{width: 100% ;text-align: center; top:5px;}
-.foto_e_descricao {max-width: 100%; min-width: 30%; background-color: olive;}
-.foto {width: 200px;position: absolute;top:70px;left:15px;}
+.nome{top:5px;right:30px;left:30px;text-align:center;background-color:#ffffff;margin-left: 5px;margin-right: 5px;}
+.foto_e_descricao {max-width: 100%; min-width: 30%;}
+.foto {width: 200px;position: absolute;top:70px;left:15px;background-color: #2fc18c;padding: 10px;}
 .descricaoT {position: absolute;top:45px;left:250px;right:10px}
 .descricao {position: absolute;top:85px;left:250px;right:100px;max-width: 100%;min-width:70% ;text-align: justify;}
 .skills {position:absolute;top:280px;left:15px;}
-sobre {position: absolute;left: 250px; top:100}
+.sobre {position: absolute;left: 250px; top:100}
+
+.impar {color: #2fc18c}
 
 /* {
 margin: 0;
@@ -14,17 +16,20 @@ padding: 0;
 /* Fonte de consulta para a origem da fonte "Ubuntu":https://fonts.google.com */
 
 /*Define a cor de background*/
-body {background-color:#300a24}
+body {background-color:#ffffff}
 /*Define a cor da fonte para a página*/
-body {color: #d5d4c1}
+.tudo {color: #3b3b3b}
 body {font-family: 'Ubuntu Mono', monospace;}
-
-.h2{text-align: right;}
+h2 {color: #2fc18c}
+h3 {color: #2fc18c}
 .texto {text-align: justify;}
+.programacao{color:#2fc18c}
+.sites {color:#2fc18c}
 
-.programacao{color:#ba0104}
-.nome {color: #4b9507}
-h2 {color: #346196}
-h3 {color: #346196}
-ol {color: #4b9507}
-.indice {color: #4b9507}
+.indice {color:#2fc18c}
+
+/* Itens ímpar */
+/*Fonte de referência do código:https://gist.github.com/douglasmiranda/1270746 */
+.HGList :nth-child(odd){color:#2fc18c;}
+
+
