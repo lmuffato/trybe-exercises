@@ -5,6 +5,7 @@
 .descricao {position: absolute;top:85px;left:250px;right:100px;max-width: 100%;min-width:70% ;text-align: justify;}
 .skills {position:absolute;top:280px;left:15px;}
 .sobre {position: absolute;left: 250px; top:100}
+.softwares2 {font-style:italic}
 
 .impar {color: #2fc18c}
 
