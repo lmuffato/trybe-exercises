@@ -1,5 +1,5 @@
 const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) =>
-  `${name} is ${value} ${measurementUnit} apart from the Sun`;
+  `${name} is ${value} ${measurementUnit} apart from the Sun`
 
 const mars = {
   name: "Mars",
@@ -13,7 +13,7 @@ const venus = {
   name: "Venus",
   distanceFromSun: {
     value: 108200000,
-    measurementUnit: "kilometers",
+    measurementUnit: "kilometers"
   },
 };
 
@@ -21,10 +21,10 @@ const jupiter = {
   name: "Jupiter",
   distanceFromSun: {
     value: 778500000,
-    measurementUnit: "kilometers",
+    measurementUnit: "kilometers"
   },
 };
 
-console.log(planetDistanceFromSun(mars)); // A
-console.log(planetDistanceFromSun(venus)); // B
-console.log(planetDistanceFromSun(jupiter)); // C
+console.log(planetDistanceFromSun(mars)); // A Primeiro
+setTimeout(() => console.log(planetDistanceFromSun(venus)), 2000); // B Terceiro
+setTimeout(() => console.log(planetDistanceFromSun(jupiter)), 1500); // C Segundo
